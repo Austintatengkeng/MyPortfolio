@@ -9,29 +9,36 @@
         <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
         <link href="./resources/css/styles.css" rel="stylesheet"/>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.10.1/devicon.min.css">
-        <script src="./resources/js/script.js"></script>
     </head>
     <body>
-        <header>
-            <nav>
-                <ul>
-                    <li><a href="#aboutme">About Me</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
+        <nav>
+            <ul>
+                <li><a href="#aboutme">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
         <main>
             <section id="aboutme">
-                <h2>Hi! im Austin</h2>
-                <h3>Software Engenieer</h3>
+                <div id="hello">
+                    <h2 id="hi">Hi! im Austin</h2>
+                    <h3>Software Engenieer</h3>
+                </div>
+                <!-- clicked elements -->
+                <div id="hidden" hidden>
+                    <h2>Austin Tatengkeng</h2>
+                    <p>Jakarta, Indonesia-based web developer with a passion for technology and a strong analytical mind. Currently a second-year university student of Information Systems at Bina Nusantara University, eager to learn and grow as a developer.</p>
+                </div>
                 <img src="./resources/img/Austin.png" alt="photo of me" />
             </section>
             <section id="projects">
                 <div id="stats">
                     <h3>Projects i've done</h3>
                     <h2>1</h2>
+                    <hr>
+                    <h3>On Progress</h3>
+                    <h2>0</h2>
                 </div>
                 <div class="project container">
                     <img src="#">
@@ -50,5 +57,6 @@
                 </div>
             </section>
         </main>
+        <script src="./resources/js/script.js"></script>
     </body>
 </html>
