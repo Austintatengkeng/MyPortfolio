@@ -1,0 +1,14 @@
+body{
+    box-sizing: border-box;
+    font-family: Lato, Oswald, sans-serif, arial;
+}
+
+header{
+    display: flex;
+    height: 3rem;
+    flex-direction: row;
+
+}
+nav ul{
+    list-style-type: none;
+}
