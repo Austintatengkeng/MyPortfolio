@@ -13,3 +13,16 @@ desc.onclick = function(){
     desc.hidden = true; 
 }
 
+let info = document.getElementById('info');
+let stats= document.getElementById('stats');
+
+info.onclick= function(){
+    info.hidden= true;
+    stats.hidden = false;
+}
+stats.onclick= function(){
+    info.hidden= false;
+    stats.hidden = true;
+}
+
+
